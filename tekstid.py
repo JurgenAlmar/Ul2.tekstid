@@ -18,7 +18,7 @@ mook = pygame.transform.scale(mook, [100,200])
 screen.blit(bg,[0,0])
 screen.blit(myya,[110,160])
 screen.blit(jutumull,[250,67])
-screen.blit(mook,[150, 160])
+screen.blit(mook,[250, 160])
 # Teksti seadistamine
 font = pygame.font.Font(None, 26)
 text = font.render("Tere! Mina olen Jürgen Almar", True, (255, 255, 255)) # Valge vär
